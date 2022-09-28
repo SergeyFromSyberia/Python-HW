@@ -14,9 +14,9 @@
 # weekdays = [1, 2, 3, 4, 5]
 # weekend = [6, 7]
 # i = input('Введите номер дня недели (от 1 до 7): ')
-# if i == weekdays:
+# if i in weekdays:
 #     print ('нет')
-# if i ==weekend:
+# elif i in weekend:
 #     print ('да')
 # else: print ('Введите корректное число')
 
